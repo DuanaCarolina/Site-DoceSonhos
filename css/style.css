@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Editando a pagina inicial*/
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-color: orange;
+}
+
+.content {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Editando o logotipo*/
+
+.brand {
+    font-size: 24px;
+    color: blue;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+}
+
+nav ul button {
+    border: 1px solid color(blue);
+    background: transparent;
+    padding: 8px 40px;
+    cursor: pointer;
+    margin-left: 30px;
+    color: blue;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+nav ul button:hover {
+    transition: background, color 0.6s;
+    background-color: blue;
+    color: white;
+}
+
+.content .header-block {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 450px;
+    background-color: blue;
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5) ;
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5) ;
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5) ;
+
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+}
+
+.header-block img {
+    width: 50%;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.header-block .text {
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+}
+
+.header-block .text h2 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: right;
+    transform: translateX(-20px);
+    transition: tranform 0.5s;
+}
+
+.header-block .text p{
+    max-width: 280px;
+    color: white;
+    text-align: right;
+    transform: translateX(-20px);
+    transition: tranform 0.4s;
+}
+
+
+/*Editando o Menu ou catalogo de Doces*/
+
+
+body{
+    background-color: coral;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.section-video h1 {
+    width: 95%;
+    margin-top: 50px;
+  }
+  
+  .video {
+    margin-top: 20px;
+  }
+
+  
+
+  
+  .section-localizacao h1 {
+    width: 95%;
+    margin-top: 50px;
+  }
+
+
+  .localizacao {
+    width: 95%;
+    margin-top: 20px;
+  }
+  
+  .localizacao > iframe {
+    width: 100%;
+  }
+
+
+
+
+ 
+  footer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+  }
+  
+  footer > span {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
